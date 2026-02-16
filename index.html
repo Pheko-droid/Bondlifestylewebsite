@@ -6,31 +6,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bond Lifestyle | Best Nightclub & VIP Lounge in Krugersdorp</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">  
 </head>
 <body>
+    <style>
+        body {
+            background-image: url('images/instagram_files/615525703_17861102853575968_6069831587507703835_n.jpg');
+            background-size: cover;
+            opacity: 0.9 50%;
+        }
+    </style>
     <header>
         <h1>Bond lifestyle</h1>
         <nav>
-            <ul>
+            <div class="logo">
+            <img src="logos/logo1.jpeg" alt="Bond Lifestyle logo featuring a gold serpent staff symbol on purple background with elegant text" width="200px" height="250px">
+            </div>
+            <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="#events">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
             </ul>
-        </nav>
+            <div class="burger">
+                <i class="fas fa-bars"></i>
+            </div>     
+          </nav>
     </header>
 
+    <main>
+<!--Hero Section-->
     <section id="home">
-        <h2>Welcome to Bond lifestyle</h2>
-        <p>Your ultimate destination for all things related to the Bond lifestyle. From fashion to gadgets, we cover it all.</p>
+        <div class="hero-content">
+        <h1>Bond Lifestyle</h1>
+        <p>Where the night comes alive with style and sophistication.</p>
+        <a href="#contact" class="btn">Book Your Table.</a>
+        </div>
     </section>
 
     <section id="about">
         <h2>About Us</h2>
-        <p>Bond lifestyle is dedicated to bringing you the latest trends and insights into the world of James Bond. We are passionate about everything Bond and strive to provide our readers with high-quality content.</p>
+        <p>Bond lifestyle is dedicated to bringing you the best nightlife experience in Krugersdorp. We offer exclusive VIP services, premium bottle service, and an elite atmosphere that caters to discerning guests .</p>
+        <p><strong>Opening Hours</strong>Tue-Wed: 10am - 19:00pm<br>
+        Thu-Mon: 10am - 2:00am<br>
+        </p>
     </section>
 
+<!--Events Section-->
+  <section id="events">
+        <h2>Upcoming Events</h2>
+        <div class="event-card">
+            <h3>Saturday Night Fever</h3>
+            <p>DJ X | 14 Feb 2026</p>
+        </div>
+        <div class="event-card">
+            <h3>Afro Beats Night</h3>
+            <p>DJ Y | 21 Feb 2026</p>
+        </div>
+        <div class="event-card">
+            <h3>Ladies Night</h3>
+            <p>DJ Z | 28 Feb 2026</p>
+            <p><strong>For the first time in a long time, we're offering special pricing for ladies!<br>
+            Half price on all drinks for the first (50 ladies) every Thursday night. Don't miss out on this amazing deal and join us for a night of fun and celebration!
+            <br> Offer valid from 17:00 to 21:00 every Thursday.   
+        </strong></p>    
+        </div>
+    </section>
+
+    <!--Gallery Section-->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <img src="images/images (2).jpeg " width="300" height="350" alt="Bond Lifestyle VIP Lounge with elegant seating arrangements, warm ambient lighting, and luxurious decor creating a sophisticated atmosphere for premium guests">
+            <img src="images/images (3).jpeg" width="300" height="350" alt="Bond Lifestyle nightclub dance floor with vibrant lights and energetic crowd">
+            <img src="images/images (4).jpeg" width="300" height="350" alt="Bond Lifestyle premium bottle service setup with luxurious presentation">
+        </div>
+    </section>
+
+
+    <!--Contact Section-->
     <section id="contact">
         <h2>Contact Us</h2>
-        <p>If you have any questions or would like to get in touch, please feel free to reach out to us at
+        <p><i class="fas fa-phone"></i> +27 11 123 4567</p>
+        <p><i class="fas fa-envelope"></i> info@bondlifestyle.co.za</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <!--Simple Contact form using Formspree-->
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="_replyto" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Bond Lifestyle. All rights reserved.</p>
+        <p>&copy;Designed by P.</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
