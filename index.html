@@ -13,7 +13,7 @@
         body {
             background-image: url('images/instagram_files/615525703_17861102853575968_6069831587507703835_n.jpg');
             background-size: cover;
-            opacity: 0.9 50%;
+            opacity: 1.0;
         }
     </style>
     <header>
@@ -94,6 +94,7 @@
             <a href="#"><i class="fab fa-facebook-f"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
         </div>
         <!--Simple Contact form using Formspree-->
         <form action="https://formspree.io/f/your-form-id" method="POST">
@@ -101,8 +102,23 @@
             <input type="email" name="_replyto" placeholder="Your Email" required>
             <textarea name="message" placeholder="Your Message" required></textarea>
             <button type="submit">Send Message</button>
+            <input type="date">
+         <a href="https://wa.me/11234567890" target="_blank" class="whatsapp-button">
+            Start a WhatsApp Chat
+        </a>
+          <button input type="number" min="1"></button> 
         </form>
     </section>
+    <!--Starter drinks form-->
+    <label for="starter-drinks">Select your starter Bottle:</label>
+    <select id="drinks" name="drinks">
+        <option value="none">Decide at the venue.</option>
+       <option value="Hennesy">Hennesy V.S.O.P - R1.800</option>
+       <option value="Remy">Remy Martin - R2.000</option>
+       <option value="Dusse">Dusse - R1.500</option>
+       <option value="Moet">Moet & Chandon Nectar - R2.500</option>
+       <option value="Belvedere">Belvedere - R2.200</option>
+    </select>
     </main>
 
     <footer>
