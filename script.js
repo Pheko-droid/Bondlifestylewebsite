@@ -18,4 +18,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 // Adding the smooth scroll behaviur for booking form
-
